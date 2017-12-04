@@ -10,3 +10,15 @@ puts grocery_list.inspect
 
 grocery_list << "carrots"
 puts grocery_list.inspect
+
+grocery_list.push("potatoes")
+puts grocery_list.inspect
+
+grocery_list.unshift("celery")
+puts grocery_list.inspect
+
+grocery_list += ["ice cream", "pie"]
+puts grocery_list.inspect
+
+grocery_list << 1
+puts grocery_list.inspect
