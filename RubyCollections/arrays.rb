@@ -6,7 +6,7 @@ grocery_list = %w(milk eggs bread)
 
 item = "milk"
 grocery_list = %W(#{item} eggs bread)
+puts grocery_list.inspect
 
-puts grocery_list[0]
-puts grocery_list[1]
-puts grocery_list[2]
+grocery_list << "carrots"
+puts grocery_list.inspect
