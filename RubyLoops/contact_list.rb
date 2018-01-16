@@ -26,7 +26,7 @@ while answer != 'n'
   answer = ask('Add another contact? (y/n)')
 end
 
-puts "----"
+puts '----'
 
 contact_list.each do |contact|
   puts "Name: #{contact['name']}"
